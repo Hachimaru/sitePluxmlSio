@@ -1,0 +1,64 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color: #D5D5D5;
+	text-align: center;
+}
+
+h2{
+    font-weight: bold;
+    border-bottom: solid 2px #960d20;
+    width: 500px;
+    margin: auto;
+    line-height: 60px;
+    margin-bottom: 40px;
+    background-image: url(logo.png);
+    background-position: 20px 5px;
+    background-size: 65px;
+    background-repeat: no-repeat;
+}
+
+
+h6{
+	font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+input{
+    height: 20px;
+    width: 300px;
+}
+
+select{
+    height: 20px;
+    width: 300px;
+    /*display: block;*/
+    margin: auto;
+    margin-bottom: -20px;
+}
+
+
+input[type="submit"]{
+	background-image: url(boutonvalider.png);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: 150px 30px;
+	height: 35px;
+    width: 150px;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+}
+
+input[type="submit"]:active{
+	background-image: url(boutonvalider.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: 150px 30px;
+	height: 35px;
+    width: 150px;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+}
