@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<document>
+	<parameter name="data" type="cdata"><![CDATA[test]]></parameter>
+	<parameter name="script" type="cdata"><![CDATA[un peu juste]]></parameter>
+	<parameter name="data2" type="cdata"><![CDATA[test 22222]]></parameter>
+	<parameter name="myfield" type="cdata"><![CDATA[<p>zz<strong>z</strong>zz<del>z</del></p>
+]]></parameter>
+</document>
